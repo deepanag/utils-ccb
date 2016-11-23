@@ -17,12 +17,11 @@
   },
   "homepage": "https://github.com/deepanag/utils-ccb#readme",
   "devDependencies": {
-    "es6-promise": "^3.1.2",
-    "node-uuid": "^1.4.7"
+    "es6-promise": "^3.1.2"
   },
   "dependencies": {
     "es6-promise": "^3.1.2",
     "fetch-polyfill": "^0.8.2",
-    "node-uuid": "^1.4.7"
+    "uuid": "^3.0.0"
   }
 }

@@ -9,7 +9,7 @@
         define(['../node-uuid/uuid', '../es6-promise/promise', '../fetch-polyfill/fetch'], factory);
     } else if (typeof exports === 'object') {
         //module.exports = factory(require('b'));
-        module.exports = factory(require('node-uuid'), require('es6-promise'), require('fetch-polyfill'));
+        module.exports = factory(require('uuid'), require('es6-promise'), require('fetch-polyfill'));
     } else {
         // Browser globals (root is window)
         root.utils = factory(root.react);
